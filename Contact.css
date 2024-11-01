@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+}
+
+.header {
+    background-color: #808080;
+    padding: 20px;
+    display: flex; /* Align children in a row */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    color: white;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Space between logo and title */
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+.title {
+    font-size: 2em;
+    text-align: center;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.contact-left {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+.contact-left-title h2 {
+    font-weight: 600;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.contact-left-title hr {
+    border: none;
+    width: 100px;
+    height: 5px;
+    background-color: #007bff; /* Matches the button color */
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-inputs, .contact-left textarea {
+    width: 100%;
+    padding: 15px;
+    font-weight: 500;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+    .contact-inputs:focus, .contact-left textarea:focus {
+        border: 2px solid #007bff; /* Matches the button color */
+    }
+
+.button-container {
+    display: flex;
+    gap: 20px; /* Space between buttons */
+    justify-content: center; /* Center buttons horizontally */
+}
+
+.submit-button, .back-button {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    justify-content: center;
+}
+
+    .submit-button:hover, .back-button:hover {
+        background-color: #0056b3;
+    }

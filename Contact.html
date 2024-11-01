@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="Contact.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <!-- Wrap the logo in an <a> tag to make it clickable -->
+            <a href="index.html">
+                <img src="Pictures/MAX CARE-2.png" alt="Company Logo" class="logo">
+            </a>
+            <h1 class="title">Book Now For A Free Consultation</h1>
+        </div>
+    </header>
+    <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2>Contact Us for a Free Consultation and Booking</h2>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="663e15db-5001-4fca-93e4-5d149bf1f43e">
+            <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+            <input type="text" name="phone" placeholder="Phone Number" class="contact-inputs" required>
+            <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+            <div class="button-container">
+                <button type="submit" class="submit-button">Submit</button>
+                <a href="index.html" class="back-button">Back to Home</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

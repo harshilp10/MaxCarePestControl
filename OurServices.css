@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    min-height: 100vh; /* Ensure body height */
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #808080;
+    padding: 20px;
+    display: flex; /* Align children in a row */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    color: white;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Space between logo and title */
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+.title {
+    font-size: 2em;
+    text-align: center;
+}
+
+.content-container {
+    padding: 20px;
+    flex-grow: 1; /* Allow content to grow and push footer down */
+}
+
+.services {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 65px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5px; /* Add space between services content and footer */
+}
+
+    .services h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: none;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+    .service img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+
+    .service h3 {
+        margin-bottom: 10px;
+        font-size: 1.2em;
+    }
+
+    .service p {
+        font-size: 1em;
+        color: #666;
+    }
+
+.button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    .button:hover {
+        background-color: #0056b3;
+    }
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    position: relative; /* Changed from fixed to relative to avoid overlap */
+    bottom: 0;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .service {
+        width: calc(50% - 20px); /* Two items per row on tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .service {
+        width: calc(100% - 20px); /* One item per row on mobile */
+    }
+}

@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+}
+
+.header {
+    background-color: #808080;
+    padding: 20px;
+    display: flex; /* Align children in a row */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    color: white;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Space between logo and title */
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+.title {
+    font-size: 2em;
+    text-align: center;
+}
+
+.button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    .button:hover {
+        background-color: #0056b3;
+    }
+
+.content-container {
+    padding: 20px;
+}
+
+.content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 20px auto; /* Center the content with margin */
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+    .content h1,
+    .content h2,
+    .content h3 {
+        text-align: left;
+        margin-top: 40px; /* Add space above headers */
+        margin-bottom: 10px; /* Space below headers */
+    }
+
+.text-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+ul {
+    margin-bottom: 20px;
+}
+
+.services {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+    .services h2 {
+        margin-bottom: 20px;
+    }
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+    .service img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+
+    .service h3 {
+        margin-bottom: 10px;
+        font-size: 1.2em;
+    }
+
+    .service p {
+        font-size: 1em;
+        color: #666;
+    }
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+    .footer a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
