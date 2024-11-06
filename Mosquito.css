@@ -55,7 +55,7 @@ body {
 }
 
     .gallery img {
-        width: 290px;
+        width: 300px;
         height: 300px;
         border-radius: 10px;
         object-fit: cover;
@@ -81,19 +81,26 @@ body {
 }
 
 .content {
-    background-color: rgba(0, 0, 0, 0.7);
+    /*background-color: rgba(0, 0, 0, 0.7);
     padding: 20px;
     border-radius: 10px;
     max-width: 800px;
     width: 100%;
     text-align: left;
     color: white;
-    margin-bottom: 5px;
+    margin-bottom: 5px;*/
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 h2, h3 {
     text-align: center;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 /* Textbox and button styling */
@@ -110,7 +117,7 @@ h2, h3 {
 }
 
 .button {
-    background-color: #007bff;
+    background-color: #063479;
     color: white;
     border: none;
     padding: 15px 30px;
@@ -129,14 +136,21 @@ h2, h3 {
 
 /* Fun Facts section */
 .flashcard {
-    background-color: rgba(255, 255, 255, 0.9);
+    /*background-color: rgba(255, 255, 255, 0.9);
     color: black;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
     max-width: 600px;
     margin: 20px auto;
-    box-shadow: 04px8pxrgba(0, 0, 0, 0.1);
+    box-shadow: 04px8pxrgba(0, 0, 0, 0.1);*/
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .flashcard-content {
@@ -151,7 +165,7 @@ h2, h3 {
 }
 
 .arrow-button {
-    background-color: #007bff;
+    background-color: #063479;
     color: white;
     border: none;
     border-radius: 50%;
@@ -168,7 +182,7 @@ h2, h3 {
 
 /* Footer section */
 footer {
-    background-color: #312e2e;
+    background-color: rgba(0, 0, 0, 0.50);
     color: white;
     text-align: center;
     padding: 20px;

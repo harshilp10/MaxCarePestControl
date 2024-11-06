@@ -65,7 +65,7 @@ body {
     border: none;
     width: 100px;
     height: 5px;
-    background-color: #007bff; /* Matches the button color */
+    background-color: #063479; /* Matches the button color */
     border-radius: 10px;
     margin-bottom: 20px;
 }
@@ -97,7 +97,7 @@ body {
     font-size: 16px;
     border: none;
     border-radius: 5px;
-    background-color: #007bff;
+    background-color: #063479;
     color: white;
     cursor: pointer;
     text-decoration: none;

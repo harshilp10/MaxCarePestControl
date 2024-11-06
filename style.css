@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: url('icons/Torontobackground.jpg') no-repeat center center fixed;
+    background: url('Icons/Torontobackground.jpg') no-repeat center center fixed;
     background-size: cover;
     color: white;
     display: flex;
@@ -49,9 +49,9 @@ body {
 .description {
     margin: 40px auto;
     max-width: 100%;
-    width: 600px; /* Make sure it's responsive */
+    width: 600px; /*Make sure it's responsive */
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(0, 0, 0, 0.50);
     border-radius: 10px;
     text-align: center;
 }
